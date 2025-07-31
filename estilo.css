@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter";
+}
+.secondDiv{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(0, 0%, 12%);
+    border-color: black;
+    border-radius: 10px;
+    border-width: 10px;
+    width: 30vw;
+    height: 75vh;
+}
+.imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 20vh;
+}
+img{
+    width: 7vw; 
+    height: 10vh;
+    border-radius: 100%;
+    margin-top: 3vh;
+}
+.descri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+}
+
+.descri h3, .descri p {
+    margin: 0;
+    padding: 0;
+  }
+.descri .prime{
+    padding-bottom: 3vh;
+}
+p{
+    font-size: 14px;
+    font-family: "Inter";
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: "Inter";
+}
+
+.linques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 30vw;
+    height: 43vh;
+}
+.but{
+    background-color: hsl(0, 0%, 20%);
+    width: 24vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.but:hover{
+    background-color: hsl(75, 94%, 57%);
+}
