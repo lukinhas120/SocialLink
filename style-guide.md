@@ -28,4 +28,4 @@ Os designs foram criados nas seguintes larguras:
 ### Fonte
 
 - Família: [Inter](https://fonts.google.com/specimen/Inter)
-- Pesos: 400, 600, 700
+- Pesos:  400, 600, 700

@@ -45,16 +45,17 @@ img{
     height: 10vh;
 }
 
-.descri h3, .descri p {
+.descri h1, .descri p {
     margin: 0;
     padding: 0;
   }
 .descri .prime{
     padding-bottom: 3vh;
 }
-p{
+.segund{
     font-size: 14px;
     font-family: "Inter";
+    color: white;
 }
 a{
     text-decoration: none;
@@ -83,7 +84,19 @@ a{
     align-items: center;
     border-radius: 5px;
     margin-top: 12px;
+    font-weight: 600;
 }
 .but:hover{
     background-color: hsl(75, 94%, 57%);
+}
+.prime{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-family: "Inter";
+    font-weight: 400;
+}
+h1{
+    font-size: 21px;
+    color: white;
+    font-weight: 700;
 }
